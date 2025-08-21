@@ -77,7 +77,7 @@ html[data-theme="light"] {
   --color-components-button-destructive-ghost-bg-hover: #fee4e2;
 
   --color-components-button-secondary-accent-text: #00b5b3;
-  --color-components-button-secondary-accent-text-disabled: #b2caff;
+  --color-components-button-secondary-accent-text-disabled: #4dd4c8;
   --color-components-button-secondary-accent-bg: #ffffff;
   --color-components-button-secondary-accent-bg-hover: #f2f4f7;
   --color-components-button-secondary-accent-bg-disabled: #f9fafb;
@@ -99,11 +99,11 @@ html[data-theme="light"] {
   --color-components-checkbox-border-disabled: rgb(24 24 27 / 0.04);
   --color-components-checkbox-bg-unchecked: #ffffff;
   --color-components-checkbox-bg-unchecked-hover: #ffffff;
-  --color-components-checkbox-bg-disabled-checked: #b2caff;
+  --color-components-checkbox-bg-disabled-checked: #4dd4c8;
 
   --color-components-radio-border-checked: #00b5b3;
   --color-components-radio-border-checked-hover: #008a88;
-  --color-components-radio-border-checked-disabled: #b2caff;
+  --color-components-radio-border-checked-disabled: #4dd4c8;
   --color-components-radio-bg-disabled: rgb(255 255 255 / 0);
   --color-components-radio-border: #d0d5dc;
   --color-components-radio-border-hover: #98a2b2;
@@ -115,7 +115,7 @@ html[data-theme="light"] {
   --color-components-toggle-knob-disabled: rgb(255 255 255 / 0.95);
   --color-components-toggle-bg: #00b5b3;
 --color-components-toggle-bg-hover: #008a88;
-  --color-components-toggle-bg-disabled: #d1e0ff;
+  --color-components-toggle-bg-disabled: #a8ede6;
   --color-components-toggle-bg-unchecked: #e9ebf0;
   --color-components-toggle-bg-unchecked-hover: #d0d5dc;
   --color-components-toggle-bg-unchecked-disabled: #f2f4f7;
@@ -151,7 +151,7 @@ html[data-theme="light"] {
   --color-components-panel-bg-transparent: rgb(255 255 255 / 0);
 
   --color-components-main-nav-nav-button-text: #495464;
-  --color-components-main-nav-nav-button-text-active: #155aef;
+  --color-components-main-nav-nav-button-text-active: #00b5b3;
   --color-components-main-nav-nav-button-bg: rgb(255 255 255 / 0);
   --color-components-main-nav-nav-button-bg-active: #fcfcfd;
   --color-components-main-nav-nav-button-border: rgb(255 255 255 / 0.95);
@@ -197,7 +197,7 @@ html[data-theme="light"] {
   --color-components-badge-status-light-error-border-inner: #f04438;
   --color-components-badge-status-light-error-halo: rgb(240 68 56 / 0.25);
 
-  --color-components-badge-status-light-normal-bg: #36bffa;
+  --color-components-badge-status-light-normal-bg: #4dd4c8;
   --color-components-badge-status-light-normal-border-inner: #0ba5ec;
   --color-components-badge-status-light-normal-halo: rgb(11 165 236 / 0.25);
 
@@ -216,7 +216,7 @@ html[data-theme="light"] {
   --color-components-chart-area-1: rgb(21 90 239 / 0.14);
   --color-components-chart-area-2: rgb(21 90 239 / 0.04);
   --color-components-chart-current-1: #00b5b3;
-  --color-components-chart-current-2: #d1e0ff;
+  --color-components-chart-current-2: #a8ede6;
   --color-components-chart-bg: #ffffff;
 
   --color-components-actionbar-bg: rgb(255 255 255 / 0.95);
@@ -229,7 +229,7 @@ html[data-theme="light"] {
   --color-components-dropzone-bg-accent: rgb(21 90 239 / 0.14);
   --color-components-dropzone-border: rgb(16 24 40 / 0.08);
   --color-components-dropzone-border-alt: rgb(16 24 40 / 0.2);
-  --color-components-dropzone-border-accent: #84abff;
+  --color-components-dropzone-border-accent: #4dd4c8;
 
   --color-components-progress-brand-progress: #00b5b3;
   --color-components-progress-brand-border: #00b5b3;
@@ -256,7 +256,7 @@ html[data-theme="light"] {
   --color-components-chat-input-bg-mask-1: rgb(255 255 255 / 0.01);
   --color-components-chat-input-bg-mask-2: #f2f4f7;
   --color-components-chat-input-border: #ffffff;
-  --color-components-chat-input-audio-wave-active: #296dff;
+  --color-components-chat-input-audio-wave-active: #00b5b3;
   --color-components-chat-input-audio-bg-alt: #fcfcfd;
 
   --color-components-avatar-shape-fill-stop-0: #ffffff;
@@ -270,16 +270,16 @@ html[data-theme="light"] {
 
   --color-components-label-gray: #f2f4f7;
 
-  --color-components-premium-badge-blue-bg-stop-0: #5289ff;
+  --color-components-premium-badge-blue-bg-stop-0: #4dd4c8;
   --color-components-premium-badge-blue-bg-stop-100: #00b5b3;
   --color-components-premium-badge-blue-stroke-stop-0: rgb(255 255 255 / 0.95);
-  --color-components-premium-badge-blue-stroke-stop-100: #155aef;
+  --color-components-premium-badge-blue-stroke-stop-100: #00b5b3;
   --color-components-premium-badge-blue-text-stop-0: #f5f7ff;
-  --color-components-premium-badge-blue-text-stop-100: #d1e0ff;
+  --color-components-premium-badge-blue-text-stop-100: #a8ede6;
   --color-components-premium-badge-blue-glow: #00329e;
-  --color-components-premium-badge-blue-bg-stop-0-hover: #296dff;
-  --color-components-premium-badge-blue-bg-stop-100-hover: #004aeb;
-  --color-components-premium-badge-blue-glow-hover: #84abff;
+  --color-components-premium-badge-blue-bg-stop-0-hover: #00b5b3;
+  --color-components-premium-badge-blue-bg-stop-100-hover: #008a88;
+  --color-components-premium-badge-blue-glow-hover: #4dd4c8;
   --color-components-premium-badge-blue-stroke-stop-0-hover: rgb(255 255 255 / 0.95);
   --color-components-premium-badge-blue-stroke-stop-100-hover: #00329e;
 
@@ -327,7 +327,7 @@ html[data-theme="light"] {
   --color-components-progress-bar-bg: rgb(21 90 239 / 0.04);
   --color-components-progress-bar-progress: rgb(21 90 239 / 0.14);
   --color-components-progress-bar-border: rgb(16 24 40 / 0.04);
-  --color-components-progress-bar-progress-solid: #296dff;
+  --color-components-progress-bar-progress-solid: #00b5b3;
   --color-components-progress-bar-progress-highlight: rgb(21 90 239 / 0.2);
 
   --color-components-icon-bg-red-solid: #d92d20;
@@ -338,7 +338,7 @@ html[data-theme="light"] {
   --color-components-icon-bg-green-solid: #4ca30d;
   --color-components-icon-bg-teal-solid: #0e9384;
   --color-components-icon-bg-blue-light-solid: #0ba5ec;
-  --color-components-icon-bg-blue-solid: #155aef;
+  --color-components-icon-bg-blue-solid: #00b5b3;
   --color-components-icon-bg-indigo-solid: #444ce7;
   --color-components-icon-bg-violet-solid: #7839ee;
   --color-components-icon-bg-midnight-solid: #828dad;
@@ -517,7 +517,7 @@ html[data-theme="light"] {
 
   --color-state-accent-hover: #eff4ff;
   --color-state-accent-active: rgb(21 90 239 / 0.08);
-  --color-state-accent-hover-alt: #d1e0ff;
+  --color-state-accent-hover-alt: #a8ede6;
   --color-state-accent-solid: #00b5b3;
   --color-state-accent-active-alt: rgb(21 90 239 / 0.14);
 
@@ -612,7 +612,7 @@ html[data-theme="light"] {
   --color-util-colors-blue-light-blue-light-100: #e0f2fe;
   --color-util-colors-blue-light-blue-light-200: #b9e6fe;
   --color-util-colors-blue-light-blue-light-300: #7cd4fd;
-  --color-util-colors-blue-light-blue-light-400: #36bffa;
+  --color-util-colors-blue-light-blue-light-400: #4dd4c8;
   --color-util-colors-blue-light-blue-light-500: #0ba5ec;
   --color-util-colors-blue-light-blue-light-600: #0086c9;
   --color-util-colors-blue-light-blue-light-700: #026aa2;
@@ -627,9 +627,9 @@ html[data-theme="light"] {
   --color-util-colors-gray-blue-gray-blue-700: #363f72;
 
   --color-util-colors-blue-brand-blue-brand-50: #f5f7ff;
-  --color-util-colors-blue-brand-blue-brand-100: #d1e0ff;
-  --color-util-colors-blue-brand-blue-brand-200: #b2caff;
-  --color-util-colors-blue-brand-blue-brand-300: #84abff;
+  --color-util-colors-blue-brand-blue-brand-100: #a8ede6;
+  --color-util-colors-blue-brand-blue-brand-200: #4dd4c8;
+  --color-util-colors-blue-brand-blue-brand-300: #4dd4c8;
   --color-util-colors-blue-brand-blue-brand-400: #4dd4c8;
   --color-util-colors-blue-brand-blue-brand-500: #00b5b3;
   --color-util-colors-blue-brand-blue-brand-600: #00b5b3;
