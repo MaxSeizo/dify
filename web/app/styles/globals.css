@@ -663,8 +663,8 @@ button:focus-within {
 
 /* overwrite paging active dark model style  */
 [class*="style_paginatio"] li .text-primary-600 {
-  color: rgb(28 100 242);
-  background-color: rgb(235 245 255);
+  color: rgb(0 181 179);  /* EIC Türkis */
+  background-color: rgb(235 252 250);  /* Heller Türkis Hintergrund */
 }
 
 /* support safari 14 and below */
