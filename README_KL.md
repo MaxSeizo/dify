@@ -268,3 +268,38 @@ To protect your privacy, please avoid posting security issues on GitHub. Instead
 ## License
 
 This repository is available under the [Dify Open Source License](LICENSE), which is essentially Apache 2.0 with a few additional restrictions.
+
+
+
+
+
+# 1. Backend Setup
+cd /opt/dify/api
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+
+# 2. Backend Config erstellen
+cat > .env << EOF
+SECRET_KEY=$(openssl rand -hex 32)
+DEPLOY_ENV=PRODUCTION
+DB_USERNAME=difyuser
+DB_PASSWORD=tJB+tQbQCaKiXKxvFPPEQutfZBYjog5qcNOObfJ5F48=
+DB_HOST=localhost
+DB_PORT=5432
+DB_DATABASE=dify
+REDIS_HOST=localhost
+REDIS_PORT=6379
+STORAGE_TYPE=local
+STORAGE_LOCAL_PATH=/opt/dify-storage
+EOF
+
+# 3. Datenbank initialisieren
+flask db upgrade
+
+# 4. Frontend Setup
+cd /opt/dify/web
+pnpm install
+pnpm build
+
+# 5. Services starten (später)

@@ -12,3 +12,6 @@ This `launch.json.template` file provides various debug configurations for the D
 ## Tips
 
 - If you need to debug with Edge browser instead of Chrome, modify the `serverReadyAction` configuration in the "Next.js: debug full stack" section, change `"debugWithChrome"` to `"debugWithEdge"` to use Microsoft Edge for debugging.
+
+
+/Users/max/Development/Projects/eic-ipmi/dify/web/public/logo/logo-embedded-chat-avatar.png
