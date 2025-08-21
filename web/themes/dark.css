@@ -21,9 +21,9 @@ html[data-theme="dark"] {
   --color-components-tooltip-bg: rgb(24 24 27 / 0.95);
 
   --color-components-button-primary-text: rgb(255 255 255 / 0.95);
-  --color-components-button-primary-bg: #155aef;
+  --color-components-button-primary-bg: #00b5b3;
   --color-components-button-primary-border: rgb(255 255 255 / 0.12);
-  --color-components-button-primary-bg-hover: #296dff;
+  --color-components-button-primary-bg-hover: #008a88;
   --color-components-button-primary-border-hover: rgb(255 255 255 / 0.2);
   --color-components-button-primary-bg-disabled: rgb(255 255 255 / 0.03);
   --color-components-button-primary-border-disabled: rgb(255 255 255 / 0.08);
@@ -49,41 +49,77 @@ html[data-theme="dark"] {
   --color-components-button-ghost-bg-hover: rgb(200 206 218 / 0.08);
 
   --color-components-button-destructive-primary-text: rgb(255 255 255 / 0.95);
-  --color-components-button-destructive-primary-text-disabled: rgb(255 255 255 / 0.2);
+  --color-components-button-destructive-primary-text-disabled: rgb(
+    255 255 255 / 0.2
+  );
   --color-components-button-destructive-primary-bg: #d92d20;
   --color-components-button-destructive-primary-bg-hover: #f04438;
-  --color-components-button-destructive-primary-bg-disabled: rgb(240 68 56 / 0.14);
+  --color-components-button-destructive-primary-bg-disabled: rgb(
+    240 68 56 / 0.14
+  );
   --color-components-button-destructive-primary-border: rgb(255 255 255 / 0.12);
-  --color-components-button-destructive-primary-border-hover: rgb(255 255 255 / 0.2);
-  --color-components-button-destructive-primary-border-disabled: rgb(255 255 255 / 0.08);
+  --color-components-button-destructive-primary-border-hover: rgb(
+    255 255 255 / 0.2
+  );
+  --color-components-button-destructive-primary-border-disabled: rgb(
+    255 255 255 / 0.08
+  );
 
   --color-components-button-destructive-secondary-text: #f97066;
-  --color-components-button-destructive-secondary-text-disabled: rgb(240 68 56 / 0.2);
+  --color-components-button-destructive-secondary-text-disabled: rgb(
+    240 68 56 / 0.2
+  );
   --color-components-button-destructive-secondary-bg: rgb(255 255 255 / 0.12);
-  --color-components-button-destructive-secondary-bg-hover: rgb(240 68 56 / 0.14);
-  --color-components-button-destructive-secondary-bg-disabled: rgb(240 68 56 / 0.08);
-  --color-components-button-destructive-secondary-border: rgb(255 255 255 / 0.08);
-  --color-components-button-destructive-secondary-border-hover: rgb(255 255 255 / 0.12);
-  --color-components-button-destructive-secondary-border-disabled: rgb(240 68 56 / 0.08);
+  --color-components-button-destructive-secondary-bg-hover: rgb(
+    240 68 56 / 0.14
+  );
+  --color-components-button-destructive-secondary-bg-disabled: rgb(
+    240 68 56 / 0.08
+  );
+  --color-components-button-destructive-secondary-border: rgb(
+    255 255 255 / 0.08
+  );
+  --color-components-button-destructive-secondary-border-hover: rgb(
+    255 255 255 / 0.12
+  );
+  --color-components-button-destructive-secondary-border-disabled: rgb(
+    240 68 56 / 0.08
+  );
 
   --color-components-button-destructive-tertiary-text: #f97066;
-  --color-components-button-destructive-tertiary-text-disabled: rgb(240 68 56 / 0.2);
+  --color-components-button-destructive-tertiary-text-disabled: rgb(
+    240 68 56 / 0.2
+  );
   --color-components-button-destructive-tertiary-bg: rgb(240 68 56 / 0.14);
-  --color-components-button-destructive-tertiary-bg-hover: rgb(240 68 56 / 0.25);
-  --color-components-button-destructive-tertiary-bg-disabled: rgb(240 68 56 / 0.08);
+  --color-components-button-destructive-tertiary-bg-hover: rgb(
+    240 68 56 / 0.25
+  );
+  --color-components-button-destructive-tertiary-bg-disabled: rgb(
+    240 68 56 / 0.08
+  );
 
   --color-components-button-destructive-ghost-text: #f97066;
-  --color-components-button-destructive-ghost-text-disabled: rgb(240 68 56 / 0.2);
+  --color-components-button-destructive-ghost-text-disabled: rgb(
+    240 68 56 / 0.2
+  );
   --color-components-button-destructive-ghost-bg-hover: rgb(240 68 56 / 0.14);
 
   --color-components-button-secondary-accent-text: rgb(255 255 255 / 0.8);
-  --color-components-button-secondary-accent-text-disabled: rgb(255 255 255 / 0.2);
+  --color-components-button-secondary-accent-text-disabled: rgb(
+    255 255 255 / 0.2
+  );
   --color-components-button-secondary-accent-bg: rgb(255 255 255 / 0.05);
   --color-components-button-secondary-accent-bg-hover: rgb(255 255 255 / 0.08);
-  --color-components-button-secondary-accent-bg-disabled: rgb(255 255 255 / 0.03);
+  --color-components-button-secondary-accent-bg-disabled: rgb(
+    255 255 255 / 0.03
+  );
   --color-components-button-secondary-accent-border: rgb(255 255 255 / 0.08);
-  --color-components-button-secondary-accent-border-hover: rgb(255 255 255 / 0.12);
-  --color-components-button-secondary-accent-border-disabled: rgb(255 255 255 / 0.05);
+  --color-components-button-secondary-accent-border-hover: rgb(
+    255 255 255 / 0.12
+  );
+  --color-components-button-secondary-accent-border-disabled: rgb(
+    255 255 255 / 0.05
+  );
 
   --color-components-button-indigo-bg: #444ce7;
   --color-components-button-indigo-bg-hover: #6172f3;
@@ -91,8 +127,8 @@ html[data-theme="dark"] {
 
   --color-components-checkbox-icon: rgb(255 255 255 / 0.95);
   --color-components-checkbox-icon-disabled: rgb(255 255 255 / 0.2);
-  --color-components-checkbox-bg: #296dff;
-  --color-components-checkbox-bg-hover: #5289ff;
+  --color-components-checkbox-bg: #00b5b3;
+  --color-components-checkbox-bg-hover: #008a88;
   --color-components-checkbox-bg-disabled: rgb(255 255 255 / 0.03);
   --color-components-checkbox-border: rgb(255 255 255 / 0.4);
   --color-components-checkbox-border-hover: rgb(255 255 255 / 0.6);
@@ -101,8 +137,8 @@ html[data-theme="dark"] {
   --color-components-checkbox-bg-unchecked-hover: rgb(255 255 255 / 0.05);
   --color-components-checkbox-bg-disabled-checked: rgb(21 90 239 / 0.2);
 
-  --color-components-radio-border-checked: #296dff;
-  --color-components-radio-border-checked-hover: #5289ff;
+  --color-components-radio-border-checked: #00b5b3;
+  --color-components-radio-border-checked-hover: #008a88;
   --color-components-radio-border-checked-disabled: rgb(21 90 239 / 0.2);
   --color-components-radio-bg-disabled: rgb(255 255 255 / 0.03);
   --color-components-radio-border: rgb(255 255 255 / 0.4);
@@ -113,8 +149,8 @@ html[data-theme="dark"] {
 
   --color-components-toggle-knob: #f4f4f5;
   --color-components-toggle-knob-disabled: rgb(255 255 255 / 0.2);
-  --color-components-toggle-bg: #296dff;
-  --color-components-toggle-bg-hover: #5289ff;
+  --color-components-toggle-bg: #00b5b3;
+  --color-components-toggle-bg-hover: #008a88;
   --color-components-toggle-bg-disabled: rgb(255 255 255 / 0.08);
   --color-components-toggle-bg-unchecked: rgb(255 255 255 / 0.2);
   --color-components-toggle-bg-unchecked-hover: rgb(255 255 255 / 0.3);
@@ -131,7 +167,7 @@ html[data-theme="dark"] {
   --color-components-menu-item-text-active: rgb(255 255 255 / 0.95);
   --color-components-menu-item-text-hover: rgb(200 206 218 / 0.8);
   --color-components-menu-item-text-active-accent: rgb(255 255 255 / 0.95);
-  --color-components-menu-item-bg-active: rgb(200 206 218 / 0.14);
+  --color-components-menu-item-bg-active: rgb(0 181 179 / 0.08);
   --color-components-menu-item-bg-hover: rgb(200 206 218 / 0.08);
 
   --color-components-panel-bg: #222225;
@@ -145,8 +181,12 @@ html[data-theme="dark"] {
   --color-components-panel-on-panel-item-bg-hover: #3a3a40;
   --color-components-panel-on-panel-item-bg-alt: #3a3a40;
   --color-components-panel-on-panel-item-bg-transparent: rgb(44 44 48 / 0.95);
-  --color-components-panel-on-panel-item-bg-hover-transparent: rgb(58 58 64 / 0);
-  --color-components-panel-on-panel-item-bg-destructive-hover-transparent: rgb(255 251 250 / 0);
+  --color-components-panel-on-panel-item-bg-hover-transparent: rgb(
+    58 58 64 / 0
+  );
+  --color-components-panel-on-panel-item-bg-destructive-hover-transparent: rgb(
+    255 251 250 / 0
+  );
 
   --color-components-panel-bg-transparent: rgb(34 34 37 / 0);
 
@@ -162,25 +202,31 @@ html[data-theme="dark"] {
   --color-components-slider-knob: #f4f4f5;
   --color-components-slider-knob-hover: #fefefe;
   --color-components-slider-knob-disabled: rgb(255 255 255 / 0.2);
-  --color-components-slider-range: #296dff;
+  --color-components-slider-range: #00b5b3;
   --color-components-slider-track: rgb(255 255 255 / 0.2);
   --color-components-slider-knob-border-hover: rgb(16 24 40 / 0.3);
   --color-components-slider-knob-border: rgb(16 24 40 / 0.2);
 
   --color-components-segmented-control-item-active-bg: rgb(255 255 255 / 0.08);
-  --color-components-segmented-control-item-active-border: rgb(200 206 218 / 0.08);
+  --color-components-segmented-control-item-active-border: rgb(
+    200 206 218 / 0.08
+  );
   --color-components-segmented-control-bg-normal: rgb(24 24 27 / 0.7);
-  --color-components-segmented-control-item-active-accent-bg: rgb(21 90 239 / 0.2);
-  --color-components-segmented-control-item-active-accent-border: rgb(21 90 239 / 0.3);
+  --color-components-segmented-control-item-active-accent-bg: rgb(
+    21 90 239 / 0.2
+  );
+  --color-components-segmented-control-item-active-accent-border: rgb(
+    21 90 239 / 0.3
+  );
 
   --color-components-option-card-option-bg: rgb(200 206 218 / 0.04);
   --color-components-option-card-option-selected-bg: rgb(255 255 255 / 0.05);
-  --color-components-option-card-option-selected-border: #5289ff;
+  --color-components-option-card-option-selected-border: #00b5b3;
   --color-components-option-card-option-border: rgb(200 206 218 / 0.2);
   --color-components-option-card-option-bg-hover: rgb(200 206 218 / 0.14);
   --color-components-option-card-option-border-hover: rgb(200 206 218 / 0.3);
 
-  --color-components-tab-active: #296dff;
+  --color-components-tab-active: #00b5b3;
 
   --color-components-badge-white-to-dark: rgb(24 24 27 / 0.8);
   --color-components-badge-status-light-success-bg: #17b26a;
@@ -212,17 +258,17 @@ html[data-theme="dark"] {
   --color-components-badge-bg-gray-soft: rgb(200 206 218 / 0.08);
   --color-components-badge-bg-dimm: rgb(255 255 255 / 0.03);
 
-  --color-components-chart-line: #5289ff;
+  --color-components-chart-line: #00b5b3;
   --color-components-chart-area-1: rgb(21 90 239 / 0.2);
   --color-components-chart-area-2: rgb(21 90 239 / 0.04);
-  --color-components-chart-current-1: #5289ff;
+  --color-components-chart-current-1: #00b5b3;
   --color-components-chart-current-2: rgb(21 90 239 / 0.3);
   --color-components-chart-bg: rgb(24 24 27 / 0.95);
 
   --color-components-actionbar-bg: #222225;
   --color-components-actionbar-border: rgb(200 206 218 / 0.08);
   --color-components-actionbar-bg-accent: #27272b;
-  --color-components-actionbar-border-accent: #5289ff;
+  --color-components-actionbar-border-accent: #00b5b3;
 
   --color-components-dropzone-bg-alt: rgb(24 24 27 / 0.8);
   --color-components-dropzone-bg: rgb(24 24 27 / 0.4);
@@ -231,8 +277,8 @@ html[data-theme="dark"] {
   --color-components-dropzone-border-alt: rgb(200 206 218 / 0.2);
   --color-components-dropzone-border-accent: #84abff;
 
-  --color-components-progress-brand-progress: #5289ff;
-  --color-components-progress-brand-border: #5289ff;
+  --color-components-progress-brand-progress: #00b5b3;
+  --color-components-progress-brand-border: #00b5b3;
   --color-components-progress-brand-bg: rgb(21 90 239 / 0.04);
 
   --color-components-progress-white-progress: #ffffff;
@@ -280,7 +326,9 @@ html[data-theme="dark"] {
   --color-components-premium-badge-blue-bg-stop-0-hover: #84abff;
   --color-components-premium-badge-blue-bg-stop-100-hover: #004aeb;
   --color-components-premium-badge-blue-glow-hover: #d1e0ff;
-  --color-components-premium-badge-blue-stroke-stop-0-hover: rgb(255 255 255 / 0.5);
+  --color-components-premium-badge-blue-stroke-stop-0-hover: rgb(
+    255 255 255 / 0.5
+  );
   --color-components-premium-badge-blue-stroke-stop-100-hover: #296dff;
 
   --color-components-premium-badge-highlight-stop-0: rgb(255 255 255 / 0.12);
@@ -295,7 +343,9 @@ html[data-theme="dark"] {
   --color-components-premium-badge-indigo-glow-hover: #e0eaff;
   --color-components-premium-badge-indigo-bg-stop-0-hover: #a4bcfd;
   --color-components-premium-badge-indigo-bg-stop-100-hover: #3538cd;
-  --color-components-premium-badge-indigo-stroke-stop-0-hover: rgb(255 255 255 / 0.5);
+  --color-components-premium-badge-indigo-stroke-stop-0-hover: rgb(
+    255 255 255 / 0.5
+  );
   --color-components-premium-badge-indigo-stroke-stop-100-hover: #444ce7;
 
   --color-components-premium-badge-grey-bg-stop-0: #676f83;
@@ -308,7 +358,9 @@ html[data-theme="dark"] {
   --color-components-premium-badge-grey-glow-hover: #f2f4f7;
   --color-components-premium-badge-grey-bg-stop-0-hover: #98a2b2;
   --color-components-premium-badge-grey-bg-stop-100-hover: #354052;
-  --color-components-premium-badge-grey-stroke-stop-0-hover: rgb(255 255 255 / 0.5);
+  --color-components-premium-badge-grey-stroke-stop-0-hover: rgb(
+    255 255 255 / 0.5
+  );
   --color-components-premium-badge-grey-stroke-stop-100-hover: #676f83;
 
   --color-components-premium-badge-orange-bg-stop-0: #ff692e;
@@ -321,7 +373,9 @@ html[data-theme="dark"] {
   --color-components-premium-badge-orange-glow-hover: #fdead7;
   --color-components-premium-badge-orange-bg-stop-0-hover: #ff692e;
   --color-components-premium-badge-orange-bg-stop-100-hover: #b93815;
-  --color-components-premium-badge-orange-stroke-stop-0-hover: rgb(255 255 255 / 0.5);
+  --color-components-premium-badge-orange-stroke-stop-0-hover: rgb(
+    255 255 255 / 0.5
+  );
   --color-components-premium-badge-orange-stroke-stop-100-hover: #ff4405;
 
   --color-components-progress-bar-bg: rgb(200 206 218 / 0.08);
@@ -367,11 +421,11 @@ html[data-theme="dark"] {
   --color-text-destructive-secondary: #f97066;
   --color-text-success-secondary: #47cd89;
   --color-text-warning-secondary: #fdb022;
-  --color-text-accent: #5289ff;
+  --color-text-accent: #00b5b3;
   --color-text-primary-on-surface: rgb(255 255 255 / 0.95);
   --color-text-placeholder: rgb(200 206 218 / 0.3);
   --color-text-disabled: rgb(200 206 218 / 0.3);
-  --color-text-accent-secondary: #84abff;
+  --color-text-accent-secondary: #4dd4c8;
   --color-text-accent-light-mode-only: #d9d9de;
   --color-text-text-selected: rgb(21 90 239 / 0.3);
   --color-text-secondary-on-surface: rgb(255 255 255 / 0.9);
@@ -443,9 +497,9 @@ html[data-theme="dark"] {
   --color-workflow-canvas-workflow-top-bar-2: rgb(29 29 32 / 0.08);
   --color-workflow-canvas-canvas-overlay: rgb(29 29 32 / 0.8);
 
-  --color-workflow-link-line-active: #5289ff;
+  --color-workflow-link-line-active: #00b5b3;
   --color-workflow-link-line-normal: #676f83;
-  --color-workflow-link-line-handle: #5289ff;
+  --color-workflow-link-line-handle: #00b5b3;
   --color-workflow-link-line-normal-transparent: rgb(103 111 131 / 0.2);
   --color-workflow-link-line-failure-active: #fdb022;
   --color-workflow-link-line-failure-handle: #fdb022;
@@ -631,10 +685,10 @@ html[data-theme="dark"] {
   --color-util-colors-blue-brand-blue-brand-100: #00329e;
   --color-util-colors-blue-brand-blue-brand-200: #003dc1;
   --color-util-colors-blue-brand-blue-brand-300: #004aeb;
-  --color-util-colors-blue-brand-blue-brand-400: #155aef;
-  --color-util-colors-blue-brand-blue-brand-500: #296dff;
-  --color-util-colors-blue-brand-blue-brand-600: #5289ff;
-  --color-util-colors-blue-brand-blue-brand-700: #84abff;
+  --color-util-colors-blue-brand-blue-brand-400: #4dd4c8;
+  --color-util-colors-blue-brand-blue-brand-500: #00b5b3;
+  --color-util-colors-blue-brand-blue-brand-600: #00b5b3;
+  --color-util-colors-blue-brand-blue-brand-700: #008a88;
 
   --color-util-colors-red-red-50: #55160c;
   --color-util-colors-red-red-100: #7a271a;
@@ -760,5 +814,4 @@ html[data-theme="dark"] {
 
   --color-dify-logo-dify-logo-blue: #e8e8e8;
   --color-dify-logo-dify-logo-black: #e8e8e8;
-
 }
